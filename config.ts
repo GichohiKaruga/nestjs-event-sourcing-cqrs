@@ -29,7 +29,7 @@ const configs = {
         password: process.env.EVENT_STORE_CREDENTIALS_PASSWORD ||  'changeit',
       },
       poolOptions: {
-        min: process.env.EVENT_STORE_POOLOPTIONS_MIN || 1,
+        min: process.env.EVENT_STORE_POOLOPTIONS_MIN || 5,
         max: process.env.EVENT_STORE_POOLOPTIONS_MAX || 10,
       },
     },
