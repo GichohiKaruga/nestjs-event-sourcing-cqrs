@@ -1,8 +1,6 @@
 import dotenv from 'dotenv';
 
 // Load environment variables from .env file
-dotenv.config();
-
 const envDevelopmentName = 'development';
 const env = process.env.NODE_ENV || envDevelopmentName;
 const configs = {
@@ -11,8 +9,8 @@ const configs = {
     DEV: env === envDevelopmentName,
     // General
     NAME: process.env.APP_NAME,
-    TITLE: process.env.APP_TITLE || 'Users',
-    DESCRIPTION: process.env.APP_DESCRIPTION || 'Users API Microservice',
+    TITLE: process.env.APP_TITLE || 'Products',
+    DESCRIPTION: process.env.APP_DESCRIPTION || 'Products API Microservice',
     // API
     PREFIX: process.env.APP_PREFIX || 'v1',
     VERSION: process.env.APP_VERSION || '1.0',

@@ -6,7 +6,6 @@ import { EventStoreModule } from 'src/store/event-store/event.store.module';
 import { CommandHandlers } from './commands/handlers';
 import { ProductsController } from './controllers/products.controller';
 import { ProductDto } from './dtos/products.dto';
-import { ProductDto } from './dtos/products.dto';
 import { EventHandlers } from './events/handlers';
 import { ProductCreatedEvent } from './events/impl/product.created.event';
 import { ProductDeletedEvent } from './events/impl/product.deleted.event';

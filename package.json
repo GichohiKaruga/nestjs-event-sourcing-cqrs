@@ -21,12 +21,6 @@
     "test:e2e": "jest --config ./test/jest-e2e.json"
   },
   "dependencies": {
-    "@mikro-orm/cli": "^4.5.9",
-    "@mikro-orm/core": "^4.5.9",
-    "@mikro-orm/nestjs": "^4.3.1",
-    "@mikro-orm/postgresql": "^4.5.9",
-    "@mikro-orm/reflection": "^4.5.9",
-    "@mikro-orm/sql-highlighter": "^1.0.1",
     "@nestjs/common": "^8.0.0",
     "@nestjs/core": "^8.0.0",
     "@nestjs/cqrs": "^8.0.0",
@@ -50,6 +44,7 @@
     "@types/jest": "27.0.2",
     "@types/node": "^16.0.0",
     "@types/supertest": "^2.0.11",
+    "@types/xml2js": "^0.4.9",
     "@typescript-eslint/eslint-plugin": "^5.0.0",
     "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^8.0.1",
