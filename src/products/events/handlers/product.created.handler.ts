@@ -1,7 +1,7 @@
 
 import { IEventHandler, EventsHandler } from '@nestjs/cqrs';
 import { Logger } from '@nestjs/common';
-import { ProductCreatedEvent } from '../definition/product.created.event';
+import { ProductCreatedEvent } from '../impl/product.created.event';
 
 @EventsHandler(ProductCreatedEvent)
 export class ProductCreatedHandler

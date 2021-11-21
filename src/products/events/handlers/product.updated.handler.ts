@@ -1,6 +1,6 @@
 import { IEventHandler, EventsHandler } from '@nestjs/cqrs';
 import { Logger } from '@nestjs/common';
-import { ProductUpdatedEvent } from '../definition/product.updated.event';
+import { ProductUpdatedEvent } from '../impl/product.updated.event';
 
 @EventsHandler(ProductUpdatedEvent)
 export class ProductUpdatedHandler
